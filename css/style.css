@@ -430,8 +430,10 @@ img {
 	text-align:center;
 }
 .client li{
-	display:inline;
-	margin:0 15px;
+	display:inline-block;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .client li a{
 	display:inline-block;
