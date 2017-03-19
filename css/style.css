@@ -65,7 +65,7 @@ h2{
 	font-size:34px;
 	color:#222222;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:700;
+	font-weight:500;
 	letter-spacing: -1px;
 	margin:0 0 15px 0;
 	text-align:center;
@@ -90,6 +90,11 @@ h6{
 p{
 	line-height:24px;
 	margin:0;
+    font-size:20px;
+}
+span{
+    line-height:24px;
+    margin:0;
 }
 
 /* Header Styles
@@ -97,7 +102,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/header.jpg) left top repeat;
+	background:url(../img/Background/header.jpg) left top repeat;
 	padding:280px 0;
     background-size:100%;
 }
@@ -352,14 +357,17 @@ color: #fff;
 }
 
 .Portfolio-box{
-	text-align:center;
-	margin-bottom:30px;
-	height:350px;
-	width:350px;
-	overflow:hidden;
-	float:left;
-	padding:0;
+    text-align:center;
+    margin-bottom:15px;
+    margin-top:15px;
+    height:550px;
+    width:32%;
+    overflow:hidden;
+    float:left;
+    padding:0;
 }
+
+
 .Portfolio-box img{
 	margin-bottom:25px;
 	transition:all 0.3s ease-in-out;
@@ -377,7 +385,7 @@ color: #fff;
 	text-decoration:none;
 }
 img {
-   max-width:100%;
+    max-height:400px;
 }
 
 /* no transition on .isotope container */
@@ -402,7 +410,7 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/section-bg1.jpg) center center no-repeat;
+	background:url(../img/Background/section-bg1.jpg) center center no-repeat;
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
@@ -430,6 +438,7 @@ img {
 }
 .client li a img{
 	margin-bottom:15px;
+    height:100px;
 	border-radius:50%;
 }
 .client li a:hover{
@@ -592,18 +601,18 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:url(../img/section-bg2.jpg) top center no-repeat;
+	background:url(../img/Background/section-bg2.jpg) top center no-repeat;
 	background-size:cover;
 	padding:60px 0 10px;
 	text-align:center;
 }
 .business-talking h2{
 	font-family: 'Montserrat', sans-serif;
-	font-weight:700;
+	font-weight:500;
 	padding:0;
 	margin:20px 0 70px;
 	text-transform:uppercase;
-	font-size:42px;
+	font-size:34px;
 	color:#fff;
 }
 
@@ -614,9 +623,6 @@ border: 2px solid #fff;
 	padding:90px 0 100px;
 }
 
-.main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
-}
 .contact-info-box{
 	font-size:15px;
 	margin:0 0 14px 68px;
@@ -675,14 +681,8 @@ border: 2px solid #fff;
 .facebook a:hover {
 	background: #3b5998;
 }
-.pinterest a:hover {
-	background: #cb2026;
-}
-.gplus a:hover {
-	background: #dd4b39;
-}
-.dribbble a:hover {
-	background: #ea4c89;
+.instagram a:hover {
+	background: #125688;
 }
 
 .form{
@@ -767,6 +767,11 @@ border: 2px solid #fff;
 
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
+}
+
+#map {
+    height: 400px;
+    background:grey;
 }
 
 /* Footer
